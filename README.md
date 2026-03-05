@@ -34,7 +34,21 @@ The dataset contains detailed information about registered Electric Vehicles, in
 - Vehicle Location
 - Electric Utility
 - 2020 Census Tract
+---
 
+## 🎯 Business Problem
+
+With the rapid growth of electric vehicles, stakeholders require:
+
+- Clear visibility of EV adoption trends  
+- BEV vs PHEV market comparison  
+- State-wise distribution analysis  
+- Manufacturer performance insights  
+- CAFV eligibility classification tracking  
+
+This dashboard centralizes these insights into one interactive analytical view.
+
+---
 ## Key Performance Indicators (KPIs)
 
 1. Total EV Registrations  
