@@ -60,7 +60,6 @@ This dashboard centralizes these insights into one interactive analytical view.
 
 ## Dashboard Features
 1.Total Vehicles by Model Year (Trend Analysis)
-
 2.State-wise EV Distribution (Geographical Analysis)  
 3.Top 10 Manufacturers by Total Vehicles  
 4.BEV vs PHEV Market Share Comparison  
