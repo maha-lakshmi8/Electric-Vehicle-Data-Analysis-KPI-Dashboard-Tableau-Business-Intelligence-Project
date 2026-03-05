@@ -34,7 +34,6 @@ The dataset contains detailed information about registered Electric Vehicles, in
 - Vehicle Location
 - Electric Utility
 - 2020 Census Tract
----
 
 ## 🎯 Business Problem
 
@@ -48,7 +47,6 @@ With the rapid growth of electric vehicles, stakeholders require:
 
 This dashboard centralizes these insights into one interactive analytical view.
 
----
 ## Key Performance Indicators (KPIs)
 
 1. Total EV Registrations  
@@ -61,69 +59,13 @@ This dashboard centralizes these insights into one interactive analytical view.
 8. Model Year Trend of EV Adoption  
 
 ## Dashboard Features
-
-### EV Distribution by Geography
-- Map visualization showing EV concentration by:
-  - State  
-  - County  
-  - City  
-- Drill-down functionality for detailed location analysis  
-
-### EV Type Analysis
-- Pie/Donut Chart:
-  - Battery Electric Vehicle (BEV)
-  - Plug-in Hybrid Electric Vehicle (PHEV)
-
-### Make & Model Insights
-- Bar Chart showing:
-  - Top EV Manufacturers  
-  - Most Popular Models  
-
-### CAFV Eligibility Analysis
-- Stacked bar showing:
-  - CAFV Eligible
-  - CAFV Not Eligible
-  - Eligibility Unknown  
-
-### Electric Range & Pricing Analysis
-- Scatter Plot:
-  - Electric Range vs Base MSRP  
-- Identify high-range premium EVs  
-
-### Year-wise Growth Trend
-- Line Chart:
-  - EV adoption trend by Model Year  
-
-### Interactive Filters
-- State  
-- County  
-- City  
-- Model Year  
-- Make  
-- EV Type  
-- CAFV Eligibility  
-
-## Dashboard Configuration Details
-
-### Data Cleaning
-- Removed null VIN and duplicate records  
-- Standardized city/state names  
-- Converted Electric Range & MSRP to numeric format  
-- Handled missing CAFV eligibility values  
-
-### Data Modeling
-- Created calculated fields:
-  - Total EV Count  
-  - BEV & PHEV classification  
-  - Average Range  
-  - Range Categories (Low / Medium / High)  
-- Used geographic roles for mapping (State, County, Postal Code)  
-
-### Design Principles
-- Clean white background with green/blue EV theme  
-- KPI cards at the top section  
-- Charts arranged logically (Geography → Type → Performance → Trend)  
-- Fully interactive with cross-filtering enabled  
+1.Total Vehicles by Model Year (Trend Analysis)  
+2.State-wise EV Distribution (Geographical Analysis)  
+3.Top 10 Manufacturers by Total Vehicles  
+4.BEV vs PHEV Market Share Comparison  
+5.CAFV Eligibility Distribution  
+6.Interactive Filters (State, Model, EV Type)  
+7.Dynamic KPI Cards  
 
 ## Insights Derived
 
@@ -131,7 +73,18 @@ This dashboard centralizes these insights into one interactive analytical view.
 - Battery Electric Vehicles (BEVs) dominate over PHEVs.  
 - Certain cities and counties show higher EV penetration.  
 - Higher electric range vehicles generally have higher MSRP.  
-- CAFV eligibility impacts adoption rates in specific districts.  
+- CAFV eligibility impacts adoption rates in specific districts.
+
+## Dashboard Preview
+
+![EV Dashboard](Images/dashboard_preview.png)
+
+## Future Enhancements
+
+- Add forecasting model for EV growth prediction  
+- Integrate live data connection  
+- Include revenue and pricing analysis  
+- Add predictive analytics using Python  
 
 ## Conclusion
 
