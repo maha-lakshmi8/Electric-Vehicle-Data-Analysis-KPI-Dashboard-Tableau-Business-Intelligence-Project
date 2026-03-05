@@ -35,7 +35,7 @@ The dataset contains detailed information about registered Electric Vehicles, in
 - Electric Utility
 - 2020 Census Tract
 
-## 🎯 Business Problem
+## Business Problem
 
 With the rapid growth of electric vehicles, stakeholders require:
 
@@ -59,7 +59,8 @@ This dashboard centralizes these insights into one interactive analytical view.
 8. Model Year Trend of EV Adoption  
 
 ## Dashboard Features
-1.Total Vehicles by Model Year (Trend Analysis)  
+1.Total Vehicles by Model Year (Trend Analysis)
+
 2.State-wise EV Distribution (Geographical Analysis)  
 3.Top 10 Manufacturers by Total Vehicles  
 4.BEV vs PHEV Market Share Comparison  
